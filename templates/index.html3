@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<body>
+<form method='post' enctype='multipart/form-data'>
+ {%csrf_token%}
+{{form1.as_p}}
+<button type='submit'>submit</button>
+ <br>
+{%for x in new1%}
+<img src='{{x.name.url}}'/>
+{%endfor%}
+</form>
+
+
+</body>
+</head>
+</html>

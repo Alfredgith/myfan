@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type='text/css'>
+body{
+   background-color:red;
+   
+
+}
+ 
+ .para{
+
+    color:green;
+    background-color:white;
+    padding-left:40px;
+ }
+
+</style>
+
+<body>
+
+<p class='para'>who are you</p>
+
+<br>
+
+<p><a href='/ran'>Go straight</a></p>
+</body>
+</head>
+</html>
